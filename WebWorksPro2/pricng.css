@@ -1,0 +1,198 @@
+
+.pricing-text-info-container{
+    text-align: center;
+    width: 650px;
+    margin: 100px auto;
+}
+
+.pricing-text-info-container h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.pricing-text-info-container p{
+    color: rgb(113, 128, 150);
+    line-height: 1.625;
+}
+
+.plans-container{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    column-gap: 80px;
+}
+
+.basic-plan-container{
+    border: 2px solid rgb(246, 173, 85);
+    width: 400px;
+    border-radius: 8px;
+    height: 430px;
+    padding-left: 25px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.plan-title-container{
+    color: rgb(113, 128, 150);
+}
+
+.plan-price-container{
+    border-bottom: 1px solid rgb(246, 173, 85);
+    margin-bottom: 30px;
+    
+}
+
+.basic-plan-features-container{
+    color: rgb(253, 121, 14);
+    line-height: 2;
+    margin-bottom: 100px;
+}
+
+.basic-choose-plan-button{
+    background-color: rgb(246, 173, 85);
+    color: white;
+    border: none;
+    padding: 10px 150px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.basic-choose-plan-button:hover{
+    background-color: rgb(254, 155, 35);
+}
+
+
+
+
+
+
+
+
+
+.premium-plan-container{
+    border: 2px solid rgb(246, 173, 85);
+    width: 400px;
+    border-radius: 8px;
+    height: 550px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.plan-title-container{
+    color: rgb(113, 128, 150);
+}
+
+.plan-price-container{
+    border-bottom: 1px solid rgb(246, 173, 85);
+    margin-bottom: 30px;
+    
+}
+
+.premium-plan-features-container{
+    color: rgb(253, 121, 14);
+    line-height: 2;
+    margin-bottom: 115px;
+}
+
+.premium-choose-plan-button{
+    background-color: rgb(246, 173, 85);
+    color: white;
+    border: none;
+    padding: 10px 150px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.premium-choose-plan-button:hover{
+    background-color: rgb(254, 155, 35);
+}
+
+
+
+
+
+.standard-plan-container{
+    border: 2px solid rgb(102, 126, 234);
+    width: 400px;
+    border-radius: 8px;
+    height: 428px;
+    padding-left: 25px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.standard-title-container{
+    color: rgb(113, 128, 150);
+}
+
+.standard-plan-price-container{
+    border-bottom: 1px solid rgb(102, 126, 234);
+    margin-bottom: 30px;
+
+    
+}
+
+.standard-plan-features-container{
+    color: rgb(102, 126, 234);
+    line-height: 2;
+    margin-bottom: 35px;
+}
+
+.standard-choose-plan-button{
+    background-color: rgb(102, 126, 234);
+    color: white;
+    border: none;
+    padding: 10px 150px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.standard-choose-plan-button:hover{
+    background-color: rgb(90, 110, 220);
+}
+
+
+
+.enterprise-plan-container{
+    border: 2px solid rgb(99, 179, 237);
+    width: 400px;
+    border-radius: 8px;
+    height: 550px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.enterprise-title-container{
+    color: rgb(113, 128, 150);
+}
+
+.enterprise-plan-price-container{
+    border-bottom: 1px solid rgb(99, 179, 237);
+    margin-bottom: 30px;
+
+    
+}
+
+.enterprise-plan-features-container{
+    color: rgb(99, 179, 237);
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.enterprise-choose-plan-button{
+    background-color: rgb(99, 179, 237);
+    color: white;
+    border: none;
+    padding: 10px 150px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.enterprise-choose-plan-button:hover{
+    background-color: rgb(80, 160, 220);
+}
+
