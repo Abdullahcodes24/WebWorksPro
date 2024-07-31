@@ -143,6 +143,7 @@
     border-radius: 4px;
     cursor: pointer;
 }
+
 .get-free-quote-button:hover{
     background-color: rgba(20, 100, 200, 0.89);
 }

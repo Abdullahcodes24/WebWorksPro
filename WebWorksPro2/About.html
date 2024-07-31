@@ -1,159 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <link rel="stylesheet" href="header-footer.css">
-    <link rel="stylesheet" href="About.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <title>WebWorksPro</title>
+
 </head>
 <body>
-    <header>
-        <div class="logo-container">
-            <img src="logo/logo4.PNG" alt="Logo" width="250" class="logo">
+   <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-black-900 mb-4 md:mb-0">
+        <img src="logo/logo2.png" alt="WebWorksPro Logo" class="w-24 h-20 text-white p-2 bg-white-500 rounded-full logo">
+        <span class="ml-3 text-xl">WebWorksPro</span>
+      </a>
+      <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-gray-900" href="index.html">Home</a>
+        <a class="mr-5 hover:text-gray-900" href="about.html">About</a>
+          <div class="relative">
+            <button class="mr-5 hover:text-gray-900 focus:outline-none text-gray-600">Services</button>
+            <div class="absolute hidden mt-2 bg-white border border-gray-200 rounded-lg shadow-lg w-48">
+              <a href="cms.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">CMS</a>
+              <a href="static.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Static Websites</a>
+              <a href="webapps.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Web Applications</a>
+              <a href="ecom.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">E-commerce Websites</a>
+              <a href="personalblog.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Blog Sites</a>
+            </div>
+          </div>
+        <a class="mr-5 hover:text-gray-900" href="contact.html">Contact</a>
+        <a class="mr-5 hover:text-gray-900" href="pricing.html">Pricing</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <img class="object-cover object-center rounded" alt="hero" src="pics/me pic.jpg">
+      </div>
+      <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Forging The Digital Future
+          <br class="hidden lg:inline-block">Journey of Abdullah Ahmad
+        </h1>
+        <p class="mb-8 leading-relaxed">Abdullah Ahmad is a graduate of Government College Peshawar, Pakistan, and is currently pursuing a Bachelor's degree in Computer Science at National University of Computer and Emerging Sciences. From a young age, Abdullah has been passionate about computing and coding, consistently seeking to bring value to others' lives through his skills and dedication to technology.</p>
+        <p class="mb-8 leading-relaxed">Before embarking on his higher education, Abdullah delved deeply into various programming languages, including PHP, JavaScript, and Python, along with their associated libraries and frameworks, as well as HTML and CSS. Recognizing the gap in his computing skills due to his engineering academic background, he took the initiative to learn through platforms like freeCodeCamp, earning certifications and working on diverse projects. This hands-on experience enabled him to build websites for friends, addressing real-time and real-world problems while working under tight deadlines as a freelancer.</p>
+        <p class="mb-8 leading-relaxed">Throughout his academic journey, Abdullah has excelled in STEM subjects, demonstrating a high level of proficiency and commitment to his work. His dedication and expertise have driven him to co-found "WebWorksPro," a web services agency with a mission to provide top-tier services and hosting solutions to elevate business websites into the modern technological landscape.</p>
+        <p class="mb-8 leading-relaxed">Abdullah has also developed a YouTube clone and several blog sites, showcasing his programming prowess. Additionally, he has successfully created a website for a school using PHP, JavaScript, SQL & MySQL for database and database management, HTML, and CSS, demonstrating his ability to apply his technical skills to diverse projects and real-world applications.</p>
+        <p class="mb-8 leading-relaxed">At WebWorksPro, the focus is not merely on creating websites but on delivering comprehensive solutions that align with clients' visions. As the founder of the agency, Abdullah confidently asserts that the agency is both effort and result-oriented, valuing every detail to ensure that the final product meets and exceeds client expectations. Together with his co-founder Muhammad Ahsan, Abdullah aims to make a significant impact by empowering businesses with cutting-edge web solutions, reflecting his unwavering passion for computing and his commitment to excellence.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Forging The Digital Future
+          <br class="hidden lg:inline-block">Journey of Muhammad Ahsan
+        </h1>
+        <p class="mb-8 leading-relaxed">Muhammad Ahsan is also a graduate of Government College Peshawar and a dedicated student of Software Engineering at the Institute of Management Sciences, Peshawar. His academic journey began with a strong focus on physics and mathematics during high school and college. However, recognizing the challenges of pursuing a career in physics, he made a strategic switch to computer science, specifically software engineering. Before his formal classes began, Muhammad proactively enrolled in an online course to learn C++ and core programming concepts, which laid a strong foundation for his future studies.</p>
+        <p class="mb-8 leading-relaxed">Once his classes commenced, Muhammad's prior knowledge of C++ made the coursework more manageable. His first semester included an introduction to frontend development with HTML, CSS, and JavaScript, which further fueled his passion for programming. As he progressed to his second semester, he delved into Object-Oriented Programming (OOP) using Java, successfully completing a data visualization project that converted CSV file data into graphical representations. This hands-on project experience solidified his understanding of practical software development.</p>
+        <p class="mb-8 leading-relaxed">During a summer break, instead of taking time off, Muhammad chose to enhance his skills by learning JavaScript. This period of self-improvement coincided with an opportunity presented by his college friend, Abdullah Ahmad. Abdullah proposed the idea of collaborating on a web services agency, which they had named "WebWorksPro." Enthusiastic about the prospect, Muhammad joined as a co-founder, and they began working together to establish the agency.</p>
+        <p class="mb-8 leading-relaxed">Since its inception, Muhammad has been an integral part of WebWorksPro, contributing to its mission of providing top-quality web services to clients. His journey with Abdullah has not only strengthened their professional bond but also allowed him to apply and expand his technical skills in a real-world setting. As a prominent shareholder and co-founder of WebWorksPro, Muhammad remains committed to delivering excellence and innovation in web solutions, reflecting his deep-seated passion for software engineering.</p>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img class="object-cover object-center rounded" alt="hero" src="pics/ahsan pic.jpg">
+      </div>
+    </div>
+  </section>
+
+
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+      <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover margin-20 object-center rounded" alt="hero" src="logo/logo4.PNG">
+      <div class="text-center lg:w-2/3 w-full">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"></h1>
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"><strong>Elevating Businesses Through Exceptional Web Solutions</strong></h1>
+        <p class="mb-8 leading-relaxed">WebWorksPro, founded by Abdullah Ahmad and co-founded by Muhammad Ahsan, is a dynamic web services agency dedicated to empowering businesses through cutting-edge web solutions. Created with the motive of helping people grow their business, WebWorksPro focuses on providing top-tier services and hosting solutions to elevate business websites into the modern technological landscape. Whether it's an e-commerce store or any other type of website, WebWorksPro aims to establish a strong online presence that can attract clients and drive sales.</p>
+        <p class="mb-8 leading-relaxed">Our team at WebWorksPro ensures that every product we deliver aligns perfectly with our client's vision, meeting and exceeding their expectations. We pride ourselves on being effort-oriented as well as results-driven, working meticulously to provide our clients with unparalleled value and support in achieving their dreams. Our commitment to transparency means that all our operations are authentic and genuine, with no fraud or scams.</p>
+        <p class="mb-8 leading-relaxed">For further information regarding the operation of our team and executives with potential clients, you can read our privacy policy and terms and conditions. At WebWorksPro, we are dedicated to delivering excellence and innovation, making a significant impact by empowering businesses with the tools they need to succeed in the digital age.</p>
+        <div class="flex justify-center">
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="navbar">
-            <a href="Home.html" class="nav-item">Home</a>
-            <a href="About.html" class="nav-item">About</a>
-            <a href="services.html" class="nav-item">Services</a>
-            <a href="contact.html" class="nav-item">Contact</a>
-            <a href="pricing.html" class="nav-item">Pricing</a>
-        </div>
 
-        <div class="signup-button-container">
-            <button class="signup-button">Sign up/Log in &#8594</button>
-        </div>
-    </header>
-    <main>
-        <div class="info-container">
-            <div class="flex-container">
-                <div class="abdullah-container">
-                    <div class="abdullah-pic-container">
-                        <img src="pics/me pic.jpg" alt="" width="500">
-                    </div>
-                    
-                    <div class="abdullah-info-container">
-                        <h1 class="abdullah-info-header">Forging The Digital Future: <br>Journey of Abdullah Ahmad
-                        </h1>
 
-                        <div class="abdullah-info-body">
-                            <p>Abdullah Ahmad is a graduate of Government College Peshawar, Pakistan, and is currently pursuing a Bachelor's degree in Computer Science at National University of Computer and Emerging Sciences. From a young age, Abdullah has been passionate about computing and coding, consistently seeking to bring value to others' lives through his skills and dedication to technology. </p>
-
-                            <p>Before embarking on his higher education, Abdullah delved deeply into various programming languages, including PHP, JavaScript, and Python, along with their associated libraries and frameworks, as well as HTML and CSS. Recognizing the gap in his computing skills due to his engineering academic background, he took the initiative to learn through platforms like freeCodeCamp, earning certifications and working on diverse projects. This hands-on experience enabled him to build websites for friends, addressing real-time and real-world problems while working under tight deadlines as a freelancer.</p>
-
-                            <p>Throughout his academic journey, Abdullah has excelled in STEM subjects, demonstrating a high level of proficiency and commitment to his work. His dedication and expertise have driven him to co-found "WebWorksPro," a web services agency with a mission to provide top-tier services and hosting solutions to elevate business websites into the modern technological landscape.</p>
-
-                            <p>Abdullah has also developed a YouTube clone and several blog sites, showcasing his programming prowess. Additionally, he has successfully created a website for a school using PHP, JavaScript, SQL & MySQL for database and database management, HTML, and CSS, demonstrating his ability to apply his technical skills to diverse projects and real-world applications.</p>
-
-                            <p>At WebWorksPro, the focus is not merely on creating websites but on delivering comprehensive solutions that align with clients' visions. As the founder of the agency, Abdullah confidently asserts that the agency is both effort and result-oriented, valuing every detail to ensure that the final product meets and exceeds client expectations. Together with his co-founder Muhammad Ahsan, Abdullah aims to make a significant impact by empowering businesses with cutting-edge web solutions, reflecting his unwavering passion for computing and his commitment to excellence.</p>
-                        </div>
-                    </div>
-                </div>
+  <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap md:text-left text-center order-first">
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">PRODUCT</h2>
+                <nav class="list-none mb-10">
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Web Design</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Our Services</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Plans & Pricing</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">My Site Login</a>
+                    </li>
+                </nav>
             </div>
 
-            <div class="flex-container">
-                <div class="muhammad-container">
-                    <div class="muhammad-info-container">
-                        <h1 class="muhammad-info-header">Forging The Digital Future: <br>Journey of Muhammad Ahsan
-                        </h1>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">AGENCY</h2>
+                <nav class="list-none mb-10">
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Our Blog</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">About Us</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Contact Us</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Reviews</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Terms & Conditions</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Cookie Policy</a>
+                    </li>
+                </nav>
+            </div>
 
-                        <div class="muhammad-info-body">
-                            <p>Muhammad Ahsan is also a graduate of Government College Peshawar and a dedicated student of Software Engineering at the Institute of Management Sciences, Peshawar. His academic journey began with a strong focus on physics and mathematics during high school and college. However, recognizing the challenges of pursuing a career in physics, he made a strategic switch to computer science, specifically software engineering. Before his formal classes began, Muhammad proactively enrolled in an online course to learn C++ and core programming concepts, which laid a strong foundation for his future studies.</p>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SUPPORT</h2>
+                <nav class="list-none mb-10">
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Get a quote</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">FAQ</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-600 hover:text-gray-800">Forgot Password</a>
+                    </li>
+                </nav>
+            </div>
 
-                            <p>Once his classes commenced, Muhammad's prior knowledge of C++ made the coursework more manageable. His first semester included an introduction to frontend development with HTML, CSS, and JavaScript, which further fueled his passion for programming. As he progressed to his second semester, he delved into Object-Oriented Programming (OOP) using Java, successfully completing a data visualization project that converted CSV file data into graphical representations. This hands-on project experience solidified his understanding of practical software development.</p>
-
-                            <p>During a summer break, instead of taking time off, Muhammad chose to enhance his skills by learning JavaScript. This period of self-improvement coincided with an opportunity presented by his college friend, Abdullah Ahmad. Abdullah proposed the idea of collaborating on a web services agency, which they had named "WebWorksPro." Enthusiastic about the prospect, Muhammad joined as a co-founder, and they began working together to establish the agency.</p>
-
-                            <p>Since its inception, Muhammad has been an integral part of WebWorksPro, contributing to its mission of providing top-quality web services to clients. His journey with Abdullah has not only strengthened their professional bond but also allowed him to apply and expand his technical skills in a real-world setting. As a prominent shareholder and co-founder of WebWorksPro, Muhammad remains committed to delivering excellence and innovation in web solutions, reflecting his deep-seated passion for software engineering.</p>
-                        </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SUBSCRIBE TO OUR NEWSLETTER</h2>
+                <div class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
+                    <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+                        <label for="footer-field" class="leading-7 text-sm text-gray-600">Email</label>
+                        <input type="text" id="footer-field" name="footer-field" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                     </div>
-
-                    <div class="muhammad-pic-container">
-                        <img src="pics/ahsan pic.jpg" alt="" width="500">
-                    </div>
+                    <button class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded">Send</button>
                 </div>
             </div>
         </div>
-
-        <div class="flex-container">
-            <div class="goals-container">
-                <div class="logo-goals-container">
-                    <img src="logo/logo4.PNG" alt="" width="300">
-                </div>
-
-                <div class="goals-header-container">
-                    <h1>Elevating Businesses Through <br> Exceptional Web Solutions</h1>
-                </div>
-
-                <div class="goals-body-container">
-                    <p>WebWorksPro, founded by Abdullah Ahmad and co-founded by Muhammad Ahsan, is a dynamic web services agency dedicated to empowering businesses through cutting-edge web solutions. Created with the motive of helping people grow their business, WebWorksPro focuses on providing top-tier services and hosting solutions to elevate business websites into the modern technological landscape. Whether it's an e-commerce store or any other type of website, WebWorksPro aims to establish a strong online presence that can attract clients and drive sales.</p>
-
-                    <p>Our team at WebWorksPro ensures that every product we deliver aligns perfectly with our client's vision, meeting and exceeding their expectations. We pride ourselves on being effort-oriented as well as results-driven, working meticulously to provide our clients with unparalleled value and support in achieving their dreams. Our commitment to transparency means that all our operations are authentic and genuine, with no fraud or scams.</p>
-
-                    <p>For further information regarding the operation of our team and executives with potential clients, you can read our privacy policy and terms and conditions. At WebWorksPro, we are dedicated to delivering excellence and innovation, making a significant impact by empowering businesses with the tools they need to succeed in the digital age.</p>
-                </div>
-            </div>
+    </div>
+    <div class="bg-gray-100">
+        <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                <img src="logo/logo2.PNG" alt="WebWorksPro" class="w-24 h-20 text-white p-2 bg-white-500 rounded-full">
+                <span class="ml-3 text-xl">WebWorksPro</span>
+            </a>
+            <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2024 WebWorksPro —
+                <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@knyttneve</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                <a class="text-blue-500" href="https://www.facebook.com/people/WebWorks-Pro/pfbid07iBMTqjppCEiPfNPKE9wXDMMnLnM9j9RfmgEKKDnmNDdW9tCVh36NtU9c8VWZEthl/">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-blue-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-blue-500">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-blue-500" href="https://www.linkedin.com/in/webworkspro/">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                </a>
+            </span>
         </div>
+    </div>
+</footer>
 
-        <div class="flex-container">
-            <div class="main-ending">
-                <div class="product-info-container main-ending-info-container">
-                    <p class="product-info-header info-header">PRODUCT</p>
-                    <p class="product-info-body info-body">
-                        Web Design <br>
-                        Our Services <br>
-                        Plans & Pricing <br>
-                        My Site Login</p>
-                </div>
-
-                <div class="agency-info-container main-ending-info-container">
-                    <p class="agency-info-header info-header">AGENCY</p>
-                    <p class="agency-info-body info-body">
-                        Our Blog <br>
-                        About Us <br>
-                        Contact Us <br>
-                        Reviews <br>
-                        Terms & Conditions <br>
-                        Privacy Policy <br>
-                        Cookie Policy <br>
-                    </p>
-                </div>
-
-                <div class="support-info-container main-ending-info-container">
-                    <p class="support-info-header info-header">SUPPORT</p>
-                    <p class="support-info-body info-body">
-                        Get a quote <br>
-                        FAQ <br>
-                        Forgot Password</p>
-                </div>
-
-                <div class="newsletter-subscribtion-container">
-                    <p class="newsletter-subscribtion-header info-header">SUBSCRIBE TO OUR NEWSLETTER</p>
-                    <div class="newsletter-subscribtion-body info-body">
-                        <form >
-                            <label for="email-input-taker">Email</label>
-                            <br>
-                            <input type="email" class="email-input-taker">
-                            <br>
-                            <button type="submit" class="email-submit-button">SEND</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-
-    
-    <footer>
-        <div class="footer-logo-container">
-            <img src="logo/logo4.PNG"  width="250">
-        </div>
-
-        <div class="copy-write-container">
-            &copy 2024 WebWorksPro
-        </div>
-    </footer>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Get all dropdown buttons
+      const dropdowns = document.querySelectorAll('.relative');
+  
+      dropdowns.forEach(function (dropdown) {
+        dropdown.addEventListener('mouseenter', function () {
+          const dropdownMenu = this.querySelector('.absolute');
+          dropdownMenu.classList.remove('hidden');
+        });
+  
+        dropdown.addEventListener('mouseleave', function () {
+          const dropdownMenu = this.querySelector('.absolute');
+          dropdownMenu.classList.add('hidden');
+        });
+  
+        // Keep dropdown menu visible when hovering over it
+        dropdown.addEventListener('mouseover', function () {
+          const dropdownMenu = this.querySelector('.absolute');
+          dropdownMenu.classList.remove('hidden');
+        });
+  
+        dropdownMenu.addEventListener('mouseleave', function () {
+          dropdownMenu.classList.add('hidden');
+        });
+      });
+    });
+  </script>
 </body>
 </html>
